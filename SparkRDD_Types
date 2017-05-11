@@ -1,0 +1,14 @@
+ParallelCollectionRDD -- created using parallelize/makeRDD method of SparkContext.
+EmptyRDD -- created using emptyRDD method of SparkContext.
+MapPartitionsRDD -- created using textFile method of SparkContext, subtract method of RDD, 
+UnionRDD -- created using union method of RDD.
+BaseRRDD
+CoGroupedRDD
+EdgeRDD
+HadoopRDD
+JdbcRDD
+NewHadoopRDD
+PartitionPruningRDD
+ShuffledRDD
+UnionRDD
+VertexRDD
