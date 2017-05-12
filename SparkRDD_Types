@@ -1,7 +1,9 @@
 ParallelCollectionRDD -- created using parallelize/makeRDD method of SparkContext.
 EmptyRDD -- created using emptyRDD method of SparkContext.
-MapPartitionsRDD -- created using textFile method of SparkContext, subtract method of RDD, 
+MapPartitionsRDD -- created using textFile method of SparkContext, subtract method of RDD, repartition, 
 UnionRDD -- created using union method of RDD.
+CartesianRDD -- created using cartesian method of RDD.
+CoalescedRDD -- created using coalesce method of RDD.
 BaseRRDD
 CoGroupedRDD
 EdgeRDD
@@ -12,3 +14,6 @@ PartitionPruningRDD
 ShuffledRDD
 UnionRDD
 VertexRDD
+PairwiseRRDD
+RRDD
+StringRRDD
